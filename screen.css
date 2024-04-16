@@ -182,3 +182,57 @@ body {
     margin: 0px;
 }
 
+
+
+
+.EpisodeMenu {
+    background: var(--lightgray);
+    width: 60%;
+    margin: auto auto 0px auto;
+    padding: 20px;
+}
+
+.EpisodeMenu h2 {
+    font-size: 50px;
+    color: var(--dark);
+    text-transform: uppercase;
+    text-align: center;
+    margin: 30px auto 20px auto;
+}
+
+.EpisodeMenu li {
+    display: inline-block;
+    margin: 0px 15px 0px 15px;
+    font-size: 25px;
+    color: var(--darkblue);
+}
+
+
+
+.EpisodeList {
+    background: var(--lightgray);
+    width: 60%;
+    margin: auto auto 20px auto;
+    padding: 20px;
+}
+
+.EpisodeList h3 {
+    color: var(--darkblue);
+    font-size: 25px;
+    margin: 0px 0px 0px 20%;
+}
+
+.EpisodeList li {
+    width: 60%;
+    list-style-position: inside;
+    margin: 5px 0px 5px 20%;
+    font-size: 25px;
+}
+
+.EpisodeList li:nth-child(odd) {
+    color: var(--darkblue);
+}
+
+.EpisodeList li:nth-child(even) {
+    color: #3679F7;
+}
