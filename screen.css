@@ -1,23 +1,30 @@
 /* Add screen styles below */
-a.active {
-    font-weight: bold;
-    color: black;
+
+:root {
+    --light: #F4F4F4;
+    --dark: #18181A;
+    --lightblue: #C4CFE4;
+    --darkblue: #003674;
+    --lightgray: #CACBD0;
+    --darkgray: #656565;
 }
+
 a:link { 
     text-decoration: none; 
-    color: black;
+    color: var(--dark);
 } 
 a:visited { 
     text-decoration: none; 
-    color: black;
+    color: var(--dark);
 } 
 a:hover { 
+    font-weight: bold;
     text-decoration: none;
-    color: black;
-} 
-a:active { 
-    text-decoration: none;
-    color: black;
+    color: var(--dark);
+}
+a.active {
+    font-weight: bold;
+    color: var(--dark);
 }
 
 
@@ -69,9 +76,9 @@ body {
 }
 
 .Updates {
-    background: #CACBD0;
+    background: var(--lightgray);
     margin: 40px auto auto auto;
-    padding: 20px 10px 20px 10px;
+    padding: 10px 30px 10px 30px;
 }
 
 .Updates ul {
@@ -80,7 +87,7 @@ body {
 
 .Updates h2 {
     font-size: 40px;
-    color: #003674;
+    color: var(--darkblue);
     text-transform: uppercase;
     text-align: center;
     margin: 0px auto 0px auto;
@@ -88,13 +95,12 @@ body {
 
 .Updates h3 {
     font-size: 20px;
-    color: #003674;
-    font-weight: normal;
+    color: var(--darkblue);
 }
 
 .Updates p {
     font-size: 15px;
-    color: #656565;
+    color: var(--darkgray);
     margin-top: -20px;
 }
 
@@ -106,15 +112,15 @@ body {
 }
 
 .About {
-    background: #003674;
-    width: 800px;
+    background: var(--darkblue);
+    width: 943px;
     margin: 60px auto auto auto;
     padding: 10px 30px 10px 30px;
 }
 
 .About h2 {
     font-size: 40px;
-    color: #CACBD0;
+    color: var(--lightgray);
     text-transform: uppercase;
     text-align: center;
     margin: 0px auto 0px auto;
@@ -122,7 +128,7 @@ body {
 
 .About p {
     font-size: 25px;
-    color: #CACBD0;
+    color: var(--lightgray);
 }
 
 .Image img {
@@ -130,3 +136,49 @@ body {
     margin: 60px auto 20px auto;
     width: 40%;
 }
+
+
+
+
+
+
+.All h2 {
+    font-size: 40px;
+    color: var(--darkblue);
+    text-transform: uppercase;
+    text-align: center;
+    margin: 70px auto 20px auto;
+}
+
+.All li {
+    background: var(--lightgray);
+    width: 60%;
+    margin: 0px auto 0px auto;
+    padding: 20px 30px 20px 30px;
+    list-style-type: none;
+}
+
+.All li:nth-child(odd) {
+    background: var(--light);
+}
+
+.All li:nth-child(even) {
+    background: var(--lightblue);
+}
+
+.All li:last-child {
+    margin-bottom: 80px;
+}
+
+.All h3 {
+    color: var(--darkblue);
+    font-size: 25px;
+    margin: 0px;
+}
+
+.All p {
+    color: var(--darkgray);
+    font-size: 15px;
+    margin: 0px;
+}
+
