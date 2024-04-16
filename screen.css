@@ -1,4 +1,132 @@
 /* Add screen styles below */
 a.active {
     font-weight: bold;
+    color: black;
+}
+a:link { 
+    text-decoration: none; 
+    color: black;
+} 
+a:visited { 
+    text-decoration: none; 
+    color: black;
+} 
+a:hover { 
+    text-decoration: none;
+    color: black;
+} 
+a:active { 
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+html {
+    background: url(Site\ Assets/PaperLinesBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center top;
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+header nav {
+    display: flex;
+}
+
+header ul {
+    font-family: 'Kiwi Maru';
+    font-size: 30px;
+    list-style-type: none;
+    margin-left: 8%;
+}
+
+header li {
+    display: inline-block;
+    margin: 10px 10px 0px 10px;
+}
+
+.signup {
+    margin-left: auto;
+    margin-right: 1%;
+    align-self: flex-end;
+    text-align: right;
+}
+
+
+
+
+body {
+    font-family: 'Kiwi Maru';
+}
+
+.Updates {
+    background: #CACBD0;
+    margin: 40px auto auto auto;
+    padding: 20px 10px 20px 10px;
+}
+
+.Updates ul {
+    list-style-type: none;
+}
+
+.Updates h2 {
+    font-size: 40px;
+    color: #003674;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px auto 0px auto;
+}
+
+.Updates h3 {
+    font-size: 20px;
+    color: #003674;
+    font-weight: normal;
+}
+
+.Updates p {
+    font-size: 15px;
+    color: #656565;
+    margin-top: -20px;
+}
+
+.Updates {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.About {
+    background: #003674;
+    width: 800px;
+    margin: 60px auto auto auto;
+    padding: 10px 30px 10px 30px;
+}
+
+.About h2 {
+    font-size: 40px;
+    color: #CACBD0;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px auto 0px auto;
+}
+
+.About p {
+    font-size: 25px;
+    color: #CACBD0;
+}
+
+.Image img {
+    display: block;
+    margin: 60px auto 20px auto;
+    width: 40%;
 }
