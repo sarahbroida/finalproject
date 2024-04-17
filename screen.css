@@ -1,4 +1,4 @@
-/* Add screen styles below */
+/* ALL PAGES */
 
 :root {
     --light: #F4F4F4;
@@ -78,9 +78,12 @@ h2 {
 }
 
 
+
+
+
 /* Homepage */
 
-body {
+main {
     font-family: 'Kiwi Maru';
 }
 

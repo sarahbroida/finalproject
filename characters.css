@@ -1,0 +1,34 @@
+/* Characters page */
+
+main {
+    background: var(--lightgray);
+    width: 75%;
+    margin: 10px auto 20px auto;
+    padding: 50px 0px 50px 0px;
+}
+
+h3 {
+    color: var(--darkblue);
+    font-size: 30px;
+    margin: auto;
+    margin-top: 50px;
+    width: 60%;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+main img {
+    width: 200px;
+    margin: 10px 40px 10px 40px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 50px 10px 50px;
+}
+
