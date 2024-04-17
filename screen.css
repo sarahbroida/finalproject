@@ -77,15 +77,21 @@ h2 {
     margin: 60px auto 20px auto;
 }
 
-
+main {
+    font-family: 'Kiwi Maru';
+}
 
 
 
 /* Homepage */
 
-main {
-    font-family: 'Kiwi Maru';
+h1 {
+    font-size: 70px;
+    text-align: center;
+    color: var(--darkblue);
+    margin-top: 0px;
 }
+
 
 .Updates {
     background: var(--lightgray);

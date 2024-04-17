@@ -1,0 +1,42 @@
+/* Which Community Character Are You? Quiz page */
+
+:root {
+    --light: #F4F4F4;
+    --dark: #18181A;
+    --lightblue: #C4CFE4;
+    --darkblue: #003674;
+    --lightgray: #CACBD0;
+    --darkgray: #656565;
+}
+
+/* Nav Buttons */
+
+a:link { 
+    text-decoration: none; 
+    color: var(--dark);
+}
+a:hover { 
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--dark);
+}
+a.active {
+    font-weight: bold;
+    color: var(--dark);
+    font-family: 'Kiwi Maru';
+    font-size: 30px;
+}
+
+nav {
+    margin: auto;
+    margin-top: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
