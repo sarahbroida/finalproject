@@ -1,5 +1,3 @@
-/* Add screen styles below */
-
 :root {
     --light: #F4F4F4;
     --dark: #18181A;
@@ -29,7 +27,7 @@ a.active {
     color: var(--dark);
 }
 
-/* Header/All Pages */
+/* Header */
 
 html {
     background: url(Site\ Assets/PaperLinesBackground.png);
@@ -77,71 +75,22 @@ h2 {
     margin: 60px auto 20px auto;
 }
 
-
-/* Homepage */
+/* All Pages */
 
 body {
     font-family: 'Kiwi Maru';
 }
 
-.Updates {
-    background: var(--lightgray);
-    margin: 40px auto auto auto;
-    padding: 10px 30px 10px 30px;
+/* Trivia and Quizzes Page */
+
+.Trivia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center space-evenly;
+    width: 80%;
+    margin: auto;
 }
 
-.Updates ul {
-    list-style-type: none;
-}
-
-.Updates h2 {
-    font-size: 40px;
-    color: var(--darkblue);
-    text-transform: uppercase;
-    text-align: center;
-    margin: 0px auto 0px auto;
-}
-
-.Updates h3 {
-    font-size: 20px;
-    color: var(--darkblue);
-}
-
-.Updates p {
-    font-size: 15px;
-    color: var(--darkgray);
-    margin-top: -20px;
-}
-
-.Updates {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-.About {
-    background: var(--darkblue);
-    width: 943px;
-    margin: 60px auto auto auto;
-    padding: 10px 30px 10px 30px;
-}
-
-.About h2 {
-    font-size: 40px;
-    color: var(--lightgray);
-    text-transform: uppercase;
-    text-align: center;
-    margin: 0px auto 0px auto;
-}
-
-.About p {
-    font-size: 25px;
-    color: var(--lightgray);
-}
-
-.Image img {
-    display: block;
-    margin: 60px auto 20px auto;
-    width: 40%;
+.Trivia img {
+    width: 500px;
 }
