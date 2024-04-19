@@ -56,3 +56,12 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #002550;
   }
+
+  .Submit a {
+    font-size: 32px;
+    margin: 82px auto 40px 0px;
+    padding: 15px 45px;
+    width: 25%;
+    background-color: var(--darkblue);
+    color: var(--light);
+}
