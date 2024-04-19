@@ -1,5 +1,7 @@
 /* Which Community Character Are You? Quiz page */
 
+/* ALL PAGES */
+
 :root {
     --light: #F4F4F4;
     --dark: #18181A;
@@ -14,7 +16,11 @@
 a:link { 
     text-decoration: none; 
     color: var(--dark);
-}
+} 
+a:visited { 
+    text-decoration: none; 
+    color: var(--dark);
+} 
 a:hover { 
     font-weight: bold;
     text-decoration: none;
@@ -23,20 +29,77 @@ a:hover {
 a.active {
     font-weight: bold;
     color: var(--dark);
-    font-family: 'Kiwi Maru';
-    font-size: 30px;
 }
 
-nav {
-    margin: auto;
-    margin-top: 20px;
-    width: 50%;
-    text-align: center;
+/* Header/All Pages */
+
+header {
+    background: url(Site\ Assets/PaperLinesBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center top;
 }
 
-header img {
+main {
+    background: url(Site\ Assets/Background_Bottom.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center top;
+}
+
+.quizheader img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 40%;
+}
+
+.quizheader nav {
+    font-family: 'Kiwi Maru';
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+main {
+    font-family: 'Kiwi Maru';
+}
+
+form {
+    margin: auto;
+    width: 80%;
+}
+
+h3:first-of-type {
+    font-size: 40px;
+    padding-top: 15px;
+    margin-top: 0px;
+}
+
+h3 {
+    font-size: 40px;
+    padding-top: 15px;
+    margin-top: 80px;
+}
+
+.form-check-label {
+    font-size: 32px;
+    margin-top: 18px;
+}
+
+.form-check-input {
+    margin: 30px 10px 25px 20px;
+    width: 30px;
+    height: 30px;
+    text-align: left;
+}
+
+button[type=submit] {
+    font-size: 32px;
+    margin: 82px auto 40px 0px;
+    width: 25%;
+    background-color: var(--darkblue);
 }
