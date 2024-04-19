@@ -1,0 +1,116 @@
+/* Dean Character Proile Page */
+
+main {
+    background-color: var(--lightgray);
+    width: 60%;
+    margin: 30px auto 50px auto;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.CharacterDescription img {
+    width: 240px;
+    float: left;
+    margin: 0px 30px 30px 30px;
+}
+
+.CharacterDescription h3 {
+    font-size: 20px;
+    color: var(--darkblue);
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+
+.CharacterDescription h2 {
+    font-size: 50px;
+    color: var(--dark);
+    text-transform: none;
+    margin: 0px;
+    text-align: left;
+    font-weight: 500;
+}
+
+.CharacterDescription p {
+    font-size: 14px;
+    color: var(--dark);
+    margin-right: 50px;
+    margin-top: 0px;
+}
+
+.AdditionalDetails {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.AdditionalDetails ul {
+    margin: auto;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.Labels ul {
+    margin: 0px;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.Labels li:first-child {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 40px;
+    color: var(--light);
+    margin: auto;
+    background-color: var(--darkblue);
+    padding: 15px 81px;
+    text-transform: uppercase;
+}
+
+.Labels li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 40px;
+    color: var(--light);
+    margin: auto;
+    background-color: #4571C4;
+    padding: 15px 81px;
+    text-transform: uppercase;
+}
+
+.Facts {
+    border-style: solid;
+    border-width: 4px;
+    border-color: var(--darkblue);
+    margin: 0px auto 60px auto;
+    width: 90%;
+    padding: 0px;
+    padding-left: 30px;
+}
+
+.Facts ul {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.Facts li {
+    list-style-type: none;
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    color: var(--darkblue);
+}
+
+.Return {
+    font-family: 'Kiwi Maru';
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    margin-left: 42%;
+    margin-bottom: 50px;
+    margin-top: -20px;
+}
