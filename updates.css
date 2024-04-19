@@ -26,6 +26,13 @@
     margin: 0px;
 }
 
+.All a {
+    font-size: 25px;
+    color: var(--darkblue);
+    font-weight: bold;
+    display: inline-block;
+}
+
 .All p {
     color: var(--darkgray);
     font-size: 15px;

@@ -33,6 +33,21 @@ a.active {
 
 /* Header/All Pages */
 
+h2 {
+    font-size: 50px;
+    color: var(--darkblue);
+    text-align: center;
+    margin: 0px auto 20px auto;
+    padding-top: 85px;
+}
+
+p {
+    font-size: 20px;
+    color: var(--darkgray);
+    margin-bottom: 40px;
+    text-align: center;
+}
+
 header {
     background: url(Site\ Assets/PaperLinesBackground.png);
     background-size: cover;
@@ -97,9 +112,27 @@ h3 {
     text-align: left;
 }
 
-button[type=submit] {
+.Submit a {
     font-size: 32px;
     margin: 82px auto 40px 0px;
     width: 25%;
     background-color: var(--darkblue);
+    color: var(--light);
+}
+
+.Results {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.Results h3 {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.Results img {
+    width: 60%;
+    margin-left: 20%;
 }

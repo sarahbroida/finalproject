@@ -7,9 +7,9 @@
     <style>@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&display=swap')</style>
     <title>Homepage</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="quizexample.css">
+    <link rel="stylesheet" href="quizexampleresult.css">
   </head>
-  <body>
+  <body onload="window.scrollTo(0,document.body.scrollHeight);">
     <header class="quizheader">
       <img alt="Community Logo with Tagline" src="Site Assets/HeaderLogo.png">
       <nav>
@@ -42,7 +42,7 @@
           <label class="form-check-label" for="inlineRadio5">Blue</label>
         </div>
         <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="inlineRadioOptions1" id="inlineRadio6" value="option6">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions1" id="inlineRadio6" value="option6" checked>
           <label class="form-check-label" for="inlineRadio6">Purple</label>
         </div>
         <div class="form-check form-check-inline">
@@ -59,7 +59,7 @@
         </div>
         <h3>Question 2: Which of these foods do you like best?</h3>
         <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="inlineRadio10" value="option1">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="inlineRadio10" value="option1" checked>
           <label class="form-check-label" for="inlineRadio10">Spaghetti & Meatballs</label>
         </div>
         <div class="form-check form-check-inline">
@@ -84,7 +84,7 @@
           <label class="form-check-label" for="inlineRadio15">Vent Monkey</label>
         </div>
         <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="inlineRadio16" value="option3">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="inlineRadio16" value="option3" checked>
           <label class="form-check-label" for="inlineRadio16">The Dean’s Outfits</label>
         </div>
         <div class="form-check form-check-inline">
@@ -109,7 +109,7 @@
           <label class="form-check-label" for="inlineRadio21">Vicky</label>
         </div>
         <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="inlineRadio22" value="option5">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="inlineRadio22" value="option5" checked>
           <label class="form-check-label" for="inlineRadio22">Magnitude</label>
         </div>
         <div class="form-check form-check-inline">
@@ -126,7 +126,7 @@
         </div>
         <h3>Question 5: Which of these was your favorite guest star?</h3>
         <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="inlineRadioOptions5" id="inlineRadio26" value="option1">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions5" id="inlineRadio26" value="option1" checked>
           <label class="form-check-label" for="inlineRadio26">John Goodman</label>
         </div>
         <div class="form-check form-check-inline">
@@ -163,7 +163,7 @@
           <label class="form-check-label" for="inlineRadio34">"Streets Ahead"</label>
         </div>
         <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="inlineRadioOptions6" id="inlineRadio35" value="option5">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions6" id="inlineRadio35" value="option5" checked>
           <label class="form-check-label" for="inlineRadio35">"Britta'd It"</label>
         </div>
         <div class="form-check form-check-inline">
@@ -178,10 +178,11 @@
           <input class="form-check-input" type="radio" name="inlineRadioOptions6" id="inlineRadio38" value="option8">
           <label class="form-check-label" for="inlineRadio38">"My name is Alex"</label>
         </div>
-        <div class="Submit">
-          <a class="btn btn-primary" href="quizexampleresult.html" role="button">Submit</a>
-        </div>
       </form>
+      <div class="Results">
+            <h3>The results are in... </h3>
+            <a href="deancharacterprofile.html"><img src="Results.png"></a>
+        </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="index.js"></script>
